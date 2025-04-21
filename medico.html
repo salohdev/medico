@@ -1,0 +1,1275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEDICO.IO</title>
+
+  <!-- Botstrap 5 cdn -->
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+
+  <!-- Css cdn -->
+
+  <link rel="stylesheet" href="./medico.css">
+
+  <!-- FONTS -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+  <header>
+    <div class="nav-top">
+      <div class="container">
+        <span class="nav-top_left">
+          <i class="fa-regular fa-clock"></i>
+          Monday - Saturday, 8AM to 10PM
+        </span>
+
+        <span class="nav-top_right">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          Call us now +1 5589 55488 55
+        </span>
+      </div>
+    </div>
+
+    <nav>
+      <div class="container">
+        <h1 class="nav-h1">
+          <img src="https://themewagon.github.io/MediCio/assets/img/logo.png" alt="">
+        </h1>
+
+        <ul class="nav-ul">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Services</a>
+          </li>
+          <li>
+            <a href="">Departments</a>
+          </li>
+          <li>
+            <a href="">Doctors</a>
+          </li>
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Dropdown 1</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 2</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 3</a></li>
+              <li><a class="dropdown-item" href="#">Dropdown 4</a></li>
+            </ul>
+          </div>
+          <li class="nav-li">
+            <a href="">Contact</a>
+          </li>
+        </ul>
+
+        <button class="btn1">
+          Make an Appointment
+        </button>
+
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero section">
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://themewagon.github.io/MediCio/assets/img/hero-carousel/hero-carousel-1.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" class="text-car">
+            <h5>Welcome to Medicio</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
+              ea commodo consequat.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="https://themewagon.github.io/MediCio/assets/img/hero-carousel/hero-carousel-2.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" class="text-car">
+            <h5> vero eos et accusamus</h5>
+            <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime
+              placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam
+              et aut officiis debitis aut.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="	https://themewagon.github.io/MediCio/assets/img/hero-carousel/hero-carousel-3.jpg"
+            class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" class="text-car">
+            <h5>Temporibus autem quibusdam</h5>
+            <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut
+              fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus
+              error sit voluptatem accusantium.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  </section>
+
+  <section id="home">
+    <div class="sun6">
+      <div class="container">
+        <div class="row1">
+          <div class="sun7">
+            <i class="fa-solid fa-heart-pulse fa-2x"></i>
+            <h4>Lorem Ipsum</h4>
+            <p>
+              Voluptatum deleniti atque corrupti <br> quos dolores et quas molestias excepturi</p>
+          </div>
+          <div class="sun7">
+            <i class="fa-solid fa-pills fa-2x"></i>
+            <h4>Sed ut perspici</h4>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+            </p>
+          </div>
+          <div class="sun7">
+            <i class="fa-solid fa-syringe fa-2x"></i>
+            <h4>Magni Dolores</h4>
+            <p>
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+            </p>
+          </div>
+          <div class="sun7">
+            <i class="fa-solid fa-dna fa-2x"></i>
+            <h4>Nemo Enim</h4>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="sun8">
+      <div class="container">
+        <div class="sun9">
+          <h2>In an emergency? Need help now?</h2>
+          <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in <br> culpa qui officia
+            deserunt
+            mollit anim id est laborum.</p>
+          <button type="button" class="btn btn-outline-light">Make an Appointment</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-us">
+    <h1>About Us</h1>
+    <div class="line"></div>
+    <p class="im0">
+      Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit
+    </p>
+
+    <div class="container">
+
+      <div class="row gy-4">
+        <div class="col-lg-6 position-relative align-self-start aos-init aos-animate" data-aos="fade-up"
+          data-aos-delay="100">
+          <img src="https://themewagon.github.io/MediCio/assets/img/about.jpg" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 content aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
+          <p class="fst-italic">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore
+            magna aliqua.
+          </p>
+          <ul class="cl">
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-check2-all" viewBox="0 0 16 16">
+                <path
+                  d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0" />
+                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708" />
+              </svg>
+              <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-check2-all" viewBox="0 0 16 16">
+                <path
+                  d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0" />
+                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708" />
+              </svg>
+              <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span>
+            </li>
+            <li>
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                class="bi bi-check2-all" viewBox="0 0 16 16">
+                <path
+                  d="M12.354 4.354a.5.5 0 0 0-.708-.708L5 10.293 1.854 7.146a.5.5 0 1 0-.708.708l3.5 3.5a.5.5 0 0 0 .708 0zm-4.208 7-.896-.897.707-.707.543.543 6.646-6.647a.5.5 0 0 1 .708.708l-7 7a.5.5 0 0 1-.708 0" />
+                <path d="m5.354 7.146.896.897-.707.707-.897-.896a.5.5 0 1 1 .708-.708" />
+              </svg>
+              <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span>
+            </li>
+          </ul>
+          <p class="im1">
+            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+          </p>
+        </div>
+      </div>
+
+      <div class="doctors">
+        <span><i class="fas fa-user-md flex-shrink-0"></i></span>
+        <h1>25</h1><br>
+        <span>Doctors</span>
+      </div>
+      <div class="depeartmes">
+        <span><i class="far fa-hospital flex-shrink-0"></i></span>
+        <h1>15</h1><br>
+        <span>Depeartments</span>
+      </div>
+      <div class="labs">
+        <span><i class="fas fa-flask flex-shrink-0"></i></span>
+        <h1>8</h1><br>
+        <span>Research Labs</span>
+      </div>
+      <div class="award">
+        <span><i class="fas fa-award flex-shrink-0"></i></span>
+        <h1>150</h1><br>
+        <span>Awards</span>
+      </div>
+
+      <!-- about -->
+      <div class="sun14">
+        <div class="rasm11">
+          <img src="https://themewagon.github.io/MediCio/assets/img/features.jpg" alt="" width="50%" height="600px">
+        </div>
+        <div class="sun15">
+          <h1>Enim quis est voluptatibus aliquid <br> <span style="float: left; margin-left: 0px;">consequatur
+              fugiat</span></h1>
+          <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. <br> Non ipsam et sed
+            minima temporibus laudantium. Soluta voluptate sed <br> facere corporis dolores excepturi
+          </p>
+        </div>
+        <div class="sun-line"></div>
+        <div class="sun16">
+          <a href=""><i class="fa-solid fa-hand-holding-medical fa-2x" class="sun-icon"></i></a>
+          <h2 style="margin-top: -450px;">Lorem squid</h2>
+          <p>
+            Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+            cupiditate non provident</p>
+        </div>
+        <div class="sun16">
+          <a href="" style="margin-top: -300px;"><i class="fa-solid fa-suitcase fa-2x" class="sun-icon"></i></a>
+          <h2 style="margin-top: -30px;">Lorem squid</h2>
+          <p>
+            Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+            cupiditate non provident</p>
+        </div>
+        <div class="sun16">
+          <a href=""
+            style="margin-top: -200px; width: 55px; height: 55px; display: flex; align-items: center; justify-content: center;"><i
+              class="fa-solid fa-staff-snake fa-2x" class="sun-icon"></i></a>
+          <h2 style="margin-top: -30px;">Lorem squid</h2>
+          <p>
+            Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+            cupiditate non provident</p>
+        </div>
+        <div class="sun16">
+          <a href="" style="margin-top: -100px;"><i class="fa-solid fa-lungs fa-2x" class="sun-icon"></i></a>
+          <h2 style="margin-top: -30px;">Lorem squid</h2>
+          <p>
+            Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+            cupiditate non provident</p>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="service">
+    <div class="container">
+      <h1 style="color: #333; text-align: center; margin-top: 200px;">Services</h1>
+      <div class="line-services"></div>
+      <p class="services-p">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+
+
+      <div class="row gy-4">
+
+        <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="service-item  position-relative">
+            <div class="icon">
+              <i class="fas fa-heartbeat"></i>
+            </div>
+            <a href="#" class="stretched-link">
+              <h3>Nesciunt Mete</h3>
+            </a>
+            <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis
+              tempore et consequatur.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="fas fa-pills"></i>
+            </div>
+            <a href="#" class="stretched-link">
+              <h3>Eosle Commodi</h3>
+            </a>
+            <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut
+              nesciunt dolorem.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="fas fa-hospital-user"></i>
+            </div>
+            <a href="#" class="stretched-link">
+              <h3>Ledo Markt</h3>
+            </a>
+            <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos
+              earum corrupti.</p>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="fas fa-dna"></i>
+            </div>
+            <a href="#" class="stretched-link">
+              <h3>Asperiores Commodit</h3>
+            </a>
+            <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident
+              adipisci neque.</p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="500">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="fas fa-wheelchair"></i>
+            </div>
+            <a href="#" class="stretched-link">
+              <h3>Velit Doloremque</h3>
+            </a>
+            <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem
+              alias eius labore.</p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+
+        <div class="col-lg-4 col-md-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="600">
+          <div class="service-item position-relative">
+            <div class="icon">
+              <i class="fas fa-notes-medical"></i>
+            </div>
+            <a href="#" class="stretched-link">
+              <h3>Dolori Architecto</h3>
+            </a>
+            <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae
+              ducimus enim.</p>
+            <a href="#" class="stretched-link"></a>
+          </div>
+        </div><!-- End Service Item -->
+
+      </div>
+
+    </div>
+    <!-- section -->
+    </div>
+  </section>
+
+  <section id="appointment" class="appointment section light-background">
+
+    <!-- Section Title -->
+    <div class="container section-title aos-init1 aos-animate" data-aos="fade-up">
+      <h2>MAKE AN APPOINTMENT</h2>
+      <div class="line-section"></div>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div><!-- End Section Title -->
+
+    <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+      <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+        <div class="row">
+          <div class="col-md-4 form-group">
+            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required="">
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required="">
+          </div>
+          <div class="col-md-4 form-group mt-3 mt-md-0">
+            <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" required="">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 form-group mt-3">
+            <input type="datetime-local" name="date" class="form-control datepicker" id="date"
+              placeholder="Appointment Date" required="">
+          </div>
+          <div class="col-md-4 form-group mt-3">
+            <select name="department" id="department" class="form-select" required="">
+              <option value="">Select Department</option>
+              <option value="Department 1">Department 1</option>
+              <option value="Department 2">Department 2</option>
+              <option value="Department 3">Department 3</option>
+            </select>
+          </div>
+          <div class="col-md-4 form-group mt-3">
+            <select name="doctor" id="doctor" class="form-select" required="">
+              <option value="">Select Doctor</option>
+              <option value="Doctor 1">Doctor 1</option>
+              <option value="Doctor 2">Doctor 2</option>
+              <option value="Doctor 3">Doctor 3</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group mt-3">
+          <textarea class="form-control" name="message" rows="5" placeholder="Message (Optional)"></textarea>
+        </div>
+        <div class="mt-3" style="padding-top: -200px;">
+          <div class="text-center" style="padding-top: -200px;"><button type="submit" style="padding-top: -200px;">Make an Appointment</button></div>
+        </div>
+      </form>
+
+    </div>
+
+  </section>
+
+  <section id="tabs" class="tabs section">
+
+    <!-- Section Title -->
+    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+      <h2>Departments</h2>
+      <div class="line-1"></div>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div><!-- End Section Title -->
+
+    <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row">
+        <div class="col-lg-3">
+          <ul class="nav nav-tabs flex-column" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active show" data-bs-toggle="tab" href="#tabs-tab-1" aria-selected="true"
+                role="tab">Cardiology</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-2" aria-selected="false" tabindex="-1"
+                role="tab">Neurology</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-3" aria-selected="false" tabindex="-1"
+                role="tab">Hepatology</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-4" aria-selected="false" tabindex="-1"
+                role="tab">Pediatrics</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" data-bs-toggle="tab" href="#tabs-tab-5" aria-selected="false" tabindex="-1"
+                role="tab">Ophthalmologists</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-9 mt-4 mt-lg-0">
+          <div class="tab-content">
+            <div class="tab-pane active show" id="tabs-tab-1" role="tabpanel">
+              <div class="row">
+                <div class="col-lg-8 details order-2 order-lg-1">
+                  <h3>Cardiology</h3>
+                  <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a
+                    videna mareta paulona marka</p>
+                  <p>Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa
+                    odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil.
+                    Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero</p>
+                </div>
+                <div class="col-lg-4 text-center order-1 order-lg-2">
+                  <img src="	https://themewagon.github.io/MediCio/assets/img/departments-1.jpg" alt=""
+                    class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tabs-tab-2" role="tabpanel">
+              <div class="row">
+                <div class="col-lg-8 details order-2 order-lg-1">
+                  <h3>Neurology</h3>
+                  <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a
+                    videna mareta paulona marka</p>
+                  <p>Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est.
+                    Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae
+                    accusamus lerode pakto madirna desera vafle de nideran pal</p>
+                </div>
+                <div class="col-lg-4 text-center order-1 order-lg-2">
+                  <img src="	https://themewagon.github.io/MediCio/assets/img/departments-2.jpg" alt=""
+                    class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tabs-tab-3" role="tabpanel">
+              <div class="row">
+                <div class="col-lg-8 details order-2 order-lg-1">
+                  <h3>Hepatology</h3>
+                  <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus
+                    non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p>
+                  <p>Iure officiis odit rerum. Harum sequi eum illum corrupti culpa veritatis quisquam. Neque
+                    necessitatibus illo rerum eum ut. Commodi ipsam minima molestiae sed laboriosam a iste odio. Earum
+                    odit nesciunt fugiat sit ullam. Soluta et harum voluptatem optio quae</p>
+                </div>
+                <div class="col-lg-4 text-center order-1 order-lg-2">
+                  <img src="	https://themewagon.github.io/MediCio/assets/img/departments-3.jpg" alt=""
+                    class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tabs-tab-4" role="tabpanel">
+              <div class="row">
+                <div class="col-lg-8 details order-2 order-lg-1">
+                  <h3>Pediatrics</h3>
+                  <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis
+                    delectus</p>
+                  <p>Eaque consequuntur consequuntur libero expedita in voluptas. Nostrum ipsam necessitatibus aliquam
+                    fugiat debitis quis velit. Eum ex maxime error in consequatur corporis atque. Eligendi asperiores
+                    sed qui veritatis aperiam quia a laborum inventore</p>
+                </div>
+                <div class="col-lg-4 text-center order-1 order-lg-2">
+                  <img src="	https://themewagon.github.io/MediCio/assets/img/departments-3.jpg" alt=""
+                    class="img-fluid">
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tabs-tab-5" role="tabpanel">
+              <div class="row">
+                <div class="col-lg-8 details order-2 order-lg-1">
+                  <h3>Ophthalmologists</h3>
+                  <p class="fst-italic">Omnis blanditiis saepe eos autem qui sunt debitis porro quia.</p>
+                  <p>Exercitationem nostrum omnis. Ut reiciendis repudiandae minus. Omnis recusandae ut non quam ut quod
+                    eius qui. Ipsum quia odit vero atque qui quibusdam amet. Occaecati sed est sint aut vitae molestiae
+                    voluptate vel</p>
+                </div>
+                <div class="col-lg-4 text-center order-1 order-lg-2">
+                  <img src="	https://themewagon.github.io/MediCio/assets/img/departments-5.jpg" alt=""
+                    class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="testimonials">
+
+    <div class="testimonilas-top">
+      <h1>Testimonials</h1>
+      <div class="line-testim"></div>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+
+    <div class="carousel-track1">
+      <div class="testimonial-item1" style="margin-left: -100px;">
+        <p class="texttes">
+          <span>
+            Quis quorum aliqua sint quem legam fore
+            sunt eram irure aliqua veniam tempor noster
+            veniam sunt culpa nulla illum cillum fugiat legam <br><br>
+            esse veniam culpa fore nisi cillum quid.
+          </span>
+        </p>
+        <img src="https://themewagon.github.io/MediCio/assets/img/testimonials/testimonials-5.jpg"
+          class="testimonial-img" alt="" class="carousel-img"
+          style="width: 100px; height: 100px; border-radius: 90px; margin-top: -60px; margin-left: 30px; border: 8px solid #fff;">
+        <h5 style="color: #333; margin-left: 40px; margin-top: 10px;">John Larson</h5>
+        <span style="font-weight: 600; font-size: 14px; margin-left: 40px; color: #777;">Entrepreneur</span>
+      </div>
+      <div class="testimonial-item1" style="margin-left: 50px;">
+        <p class="texttes">
+          <span>
+            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid malis quorum velit fore
+            eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+          </span>
+        </p>
+        <img src="	https://themewagon.github.io/MediCio/assets/img/testimonials/testimonials-2.jpg"
+          class="testimonial-img" alt="" class="carousel-img"
+          style="width: 100px; height: 100px; border-radius: 90px; margin-top: -60px; margin-left: 30px; border: 8px solid #fff;">
+        <h5 style="color: #333; margin-left: 40px; margin-top: 10px;">Sara Wilsson</h5>
+        <span style="font-weight: 600; font-size: 14px; margin-left: 40px; color: #777;">Designer</span>
+      </div>
+      <div class="testimonial-item1" style="margin-left: 50px;">
+        <p class="texttes">
+          <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
+            quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+        </p>
+        <img src="	https://themewagon.github.io/MediCio/assets/img/testimonials/testimonials-1.jpg"
+          class="testimonial-img" alt="" class="carousel-img"
+          style="width: 100px; height: 100px; border-radius: 90px; margin-top: -60px; margin-left: 30px; border: 8px solid #fff;">
+        <h5 style="color: #333; margin-left: 40px; margin-top: 10px;">Saul Goodman</h5>
+        <span style="font-weight: 600; font-size: 14px; margin-left: 40px; color: #777;">Ceo & Founder</span>
+      </div>
+      <div class="testimonial-item1" style="margin-left: 50px;">
+        <p class="texttes">
+          <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat dolor enim duis
+            veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+        </p>
+        <img src="https://themewagon.github.io/MediCio/assets/img/testimonials/testimonials-4.jpg"
+          class="testimonial-img" alt="" class="carousel-img"
+          style="width: 100px; height: 100px; border-radius: 90px; margin-top: -60px; margin-left: 30px; border: 8px solid #fff;">
+        <h5 style="color: #333; margin-left: 40px; margin-top: 10px;">Matt Brandon</h5>
+        <span style="font-weight: 600; font-size: 14px; margin-left: 40px; color: #777;">Freelancer</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="doctors-section">
+    <h1 style="text-align: center; color: #555;">Doctors</h1>
+    <div class="line-docotr"></div>
+    <p style="text-align: center; margin-top: 15px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+      consectetur velit</p>
+    <div class="doctors2">
+
+      <div class="card">
+        <div class="container">
+          <img src="https://themewagon.github.io/MediCio/assets/img/doctors/doctors-1.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-x-twitter" style="width: 16px; height: 16px;"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="container">
+          <h4><b>John Doe</b></h4>
+          <p>Architect & Engineer</p>
+        </div>
+      </div>
+
+      <div class="card" style="margin-left: 650px; margin-top: -340px;">
+        <div class="container">
+          <img src="https://themewagon.github.io/MediCio/assets/img/doctors/doctors-2.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-x-twitter" style="width: 16px; height: 16px;"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="container">
+          <h4><b>John Doe</b></h4>
+          <p>Architect & Engineer</p>
+        </div>
+      </div>
+
+      <div class="card" style="margin-right: 650px; float: right; margin-top: -340px;">
+        <div class="container">
+          <img src="https://themewagon.github.io/MediCio/assets/img/doctors/doctors-3.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-x-twitter" style="width: 16px; height: 16px;"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="container">
+          <h4><b>John Doe</b></h4>
+          <p>Architect & Engineer</p>
+        </div>
+      </div>
+
+      <div class="card" style="margin-right: 300px; float: right; margin-top: -340px;">
+        <div class="container">
+          <img src="https://themewagon.github.io/MediCio/assets/img/doctors/doctors-4.jpg" alt="Avatar" class="image">
+          <div class="overlay">
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-x-twitter" style="width: 16px; height: 16px;"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-instagram"></i></a>
+            <a href="" style="color: #444;background: #fff; width: 100px; height: 40px;"> <i
+                class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="container">
+          <h4><b>John Doe</b></h4>
+          <p>Architect & Engineer</p>
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h1 style="text-align: center; margin-top: 100px;">Gallery</h1>
+    <div class="line-gallery" style="border: 2px solid #3fbbc0; width: 60px; margin-top: 20px; margin-left: 920px;">
+    </div>
+    <p style="text-align: center; margin-top: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+      consectetur velit</p>
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <img src="https://themewagon.github.io/MediCio/assets/img/gallery/gallery-1.jpg" class="carousel-img" />
+        <img src="https://themewagon.github.io/MediCio/assets/img/gallery/gallery-2.jpg" class="carousel-img" />
+        <img src="https://themewagon.github.io/MediCio/assets/img/gallery/gallery-3.jpg" class="carousel-img" />
+        <img src="https://themewagon.github.io/MediCio/assets/img/gallery/gallery-4.jpg" class="carousel-img" />
+        <img src="https://themewagon.github.io/MediCio/assets/img/gallery/gallery-5.jpg" class="carousel-img" />
+        <img src="https://themewagon.github.io/MediCio/assets/img/gallery/gallery-6.jpg" class="carousel-img" />
+        <img src="https://themewagon.github.io/MediCio/assets/img/gallery/gallery-7.jpg" class="carousel-img" />
+      </div>
+    </div>
+
+  </section>
+
+  <section id="pricing" class="pricing section">
+
+    <!-- Section Title -->
+    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+      <h2 style="text-align: center;">Pricing</h2>
+      <div class="line-pricing" style="border: 2px solid #3fbbc0; width: 60px; margin-top: 20px; margin-left: 610px;">
+      </div>
+      <p style="text-align: center; margin-top: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+
+      <div class="row gy-3">
+
+        <div class="col-xl-3 col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <div class="pricing-item">
+            <h3>Free</h3>
+            <h4 style="text-align: center; margin-top: 10px;"><sup>$</sup>0<span
+                style="color: #888; font-weight: 100; font-size: 20px;"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li><br>
+              <li>Nec feugiat nisl</li><br>
+              <li>Nulla at volutpat dola</li><br>
+              <li class="na" style="text-decoration:  line-through; color: #555;">Pharetra massa</li><br>
+              <li class="na" style="text-decoration:  line-through; color: #555;">Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy" style="padding-left: 30px; padding-top: 6px; font-weight: 500;">Buy Now</a>
+            </div>
+          </div>
+        </div><!-- End Pricing Item -->
+
+        <div class="col-xl-3 col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+          <div class="pricing-item featured ">
+            <h3 style="background: #3fbbc0; color: #fff; border-top-right-radius: 20px; border-top-left-radius: 20px;">
+              Business</h3>
+            <h4 style="text-align: center; margin-top: 10px;"><sup>$</sup>19<span
+                style="color: #888; font-weight: 100; font-size: 20px;"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li><br>
+              <li>Nec feugiat nisl</li><br>
+              <li>Nulla at volutpat dola</li><br>
+              <li>Pharetra massa</li> <br>
+              <li class="na" style="text-decoration:  line-through; color: #555;">Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy" style="padding-left: 30px; padding-top: 6px; font-weight: 500;">Buy Now</a>
+            </div>
+          </div>
+        </div><!-- End Pricing Item -->
+
+        <div class="col-xl-3 col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+          <div class="pricing-item">
+            <h3>Developer</h3>
+            <h4 style="text-align: center; margin-top: 10px;"><sup>$</sup>29<span
+                style="color: #888; font-weight: 100; font-size: 20px;"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li><br>
+              <li>Nec feugiat nisl</li><br>
+              <li>Nulla at volutpat dola</li><br>
+              <li>Pharetra massa</li><br>
+              <li>Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy" style="padding-left: 30px; padding-top: 6px; font-weight: 500;">Buy Now</a>
+            </div>
+          </div>
+        </div><!-- End Pricing Item -->
+
+        <div class="col-xl-3 col-lg-6 aos-init aos-animate" data-aos="fade-up" data-aos-delay="400">
+          <div class="pricing-item">
+            <h3>Ultimate</h3>
+            <h4 style="text-align: center; margin-top: 10px;"><sup>$</sup>49<span
+                style="color: #888; font-weight: 100; font-size: 20px;"> / month</span></h4>
+            <ul>
+              <li>Aida dere</li><br>
+              <li>Nec feugiat nisl</li><br>
+              <li>Nulla at volutpat dola</li><br>
+              <li>Pharetra massa</li><br>
+              <li>Massa ultricies mi</li>
+            </ul>
+            <div class="btn-wrap">
+              <a href="#" class="btn-buy" style="padding-left: 30px; padding-top: 6px; font-weight: 500;">Buy Now</a>
+            </div>
+          </div>
+        </div><!-- End Pricing Item -->
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="faq" class="faq section light-background">
+
+    <!-- Section Title -->
+    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+      <h2 style="text-align: center; margin-top: 100px;">Frequently Asked Questions</h2>
+      <div class="line-1" style="border: 2ps solid #3fbbc0; width: 100px;margin-left: 580px; margin-top: 20px;"></div>
+      <p style="text-align: center; margin-top: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit</p>
+    </div><!-- End Section Title -->
+
+    <div class="container">
+      <div class="accordion accordion-flush" id="accordionFlushExample" style="margin-top: 60px;">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Non consectetur a erat nam at lectus urna duis?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus
+              laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Feugiat scelerisque varius morbi enim nunc faucibus?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
+              interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium.
+              Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Dolor sit amet consectetur adipiscing elit pellentesque?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci.
+              Faucibus
+              pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
+              pellentesque
+              eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed
+              odio
+              morbi quis</div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+              Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id
+              interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium.
+              Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+              Tempus quam pellentesque nec nam aliquam sem et tortor?
+            </button>
+          </h2>
+          <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim
+              suspendisse
+              in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
+              bibendum
+              est. Purus gravida quis blandit turpis cursus in</div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Perspiciatis quod quo quos nulla quo illum ullam?
+            </button>
+          </h2>
+          <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+            data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">Enim ea facilis quaerat voluptas quidem et dolorem. Quis et consequatur non sed
+              in
+              suscipit sequi. Distinctio ipsam dolore et.</div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <section id="contact" class="contact section">
+
+    <!-- Section Title -->
+    <div class="container section-title aos-init aos-animate" data-aos="fade-up">
+      <h2 style="text-align: center;">Contact</h2>
+      <div></div>
+      <p style="text-align: center; margin-top: 20px;">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+        consectetur velit</p>
+    </div><!-- End Section Title -->
+
+    <div class="mb-5 aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
+      <iframe style="border:0; width: 100%; height: 370px;"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus"
+        frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div><!-- End Google Maps -->
+
+    <div class="container aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+
+      <div class="row gy-4">
+        <div class="col-lg-6 ">
+          <div class="row gy-4">
+
+            <div class="col-lg-12">
+              <div class="info-item d-flex flex-column justify-content-center align-items-center aos-init aos-animate"
+                data-aos="fade-up" data-aos-delay="200">
+                <i class="fa-solid fa-location-dot"
+                  style="border: 2px dotted #3fbbc0; text-align: center; margin-left: -10px; margin-top: -50px; font-size: 25px; width: 50px; height: 50px;"></i>
+                <h3 style="color: #777; font-size: 22px; margin-top: 10px;">Address</h3>
+                <p style="color: #555;">A108 Adam Street, New York, NY 535022</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-md-6" style="margin-left: 90px;">
+              <div class="info-item d-flex flex-column justify-content-center align-items-center aos-init aos-animate"
+                data-aos="fade-up" data-aos-delay="300">
+                <i class="fa-solid fa-phone"
+                  style="border: 2px dotted #3fbbc0; text-align: center; margin-left: -10px; margin-top: -50px; font-size: 25px; width: 50px; height: 50px;"></i>
+                <h3 style="color: #777; font-size: 22px; margin-top: 10px;">Call Us</h3>
+                <p style="color: #555;">+1 5589 55488 55</p>
+              </div>
+            </div><!-- End Info Item -->
+
+            <div class="col-md-6" style="margin-left: 387px; margin-top: -170px;">
+              <div class="info-item d-flex flex-column justify-content-center align-items-center aos-init aos-animate"
+                data-aos="fade-up" data-aos-delay="400">
+                <i class="fa-solid fa-envelope"
+                  style="border: 2px dotted #3fbbc0; text-align: center; margin-left: -10px; margin-top: -50px; font-size: 25px; width: 50px; height: 50px;"></i>
+                <h3 style="color: #777; font-size: 22px; margin-top: 10px;">Email Us</h3>
+                <p style="color: #555;">info@example.com</p>
+              </div>
+            </div><!-- End Info Item -->
+
+          </div>
+        </div>
+
+        <div class="col-lg-6"
+          style="box-shadow: 0px 0px 3px rgba(158, 158, 158, 0.342); height: 370px; margin-top: 150px;">
+          <form action="forms/contact.php" method="post" class="php-email-form aos-init aos-animate" data-aos="fade-up"
+            data-aos-delay="500">
+            <div class="row gy-4">
+
+              <div class="col-md-7" style="margin-top: -80px;">
+                <input type="text" name="name" class="form-control" placeholder="Your Name" required="" wfd-id="id4">
+              </div>
+
+              <div class="col-md-7 " style="margin-top: -20px;">
+                <input type="email" class="form-control" name="email" placeholder="Your Email" required="" wfd-id="id5">
+              </div>
+
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="subject" placeholder="Subject" required="" wfd-id="id6">
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" name="message" rows="4" placeholder="Message" required=""></textarea>
+              </div>
+
+              <div class="col-md-12 text-center">
+                <button type="submit" style="margin-top: -30px;">Send Message</button>
+              </div>
+
+            </div>
+          </form>
+        </div><!-- End Contact Form -->
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="container1">
+      <div class="footer-box">
+        <h3 style="font-size: 30px">Medicio</h3>
+        <p style="margin-top: 40px">
+          A108 Adam Street<br /> <br><span>New York, NY 535022</span>
+        </p><br>
+        <p style="margin-top: 10px">
+          <strong>Phone:</strong> +1 5589 55488 55<br /><br>
+          <strong>Email:</strong> info@example.com
+        </p><br>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-box">
+        <h4>Useful Links</h4>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Terms of service</a></li>
+          <li><a href="#">Privacy policy</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-box">
+        <h4>Our Services</h4>
+        <ul>
+          <li><a href="#">Web Design</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">Product Management</a></li>
+          <li><a href="#">Marketing</a></li>
+          <li><a href="#">Graphic Design</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-box">
+        <h4>Hic solutastep</h4>
+        <ul>
+          <li><a href="#">Molestiae accusamus iure</a></li>
+          <li><a href="#">Excepturi dignissimos</a></li>
+          <li><a href="#">Suscipit distinctio</a></li>
+          <li><a href="#">Dilecta</a></li>
+          <li><a href="#">Sit quas consectetur</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-box">
+        <h4>Nobis illum</h4>
+        <ul>
+          <li><a href="#">Ipsam</a></li>
+          <li><a href="#">Laudantium dolorum</a></li>
+          <li><a href="#">Dinera</a></li>
+          <li><a href="#">Trodelas</a></li>
+          <li><a href="#">Flexo</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="line"></div>
+
+    <div class="footer-bottom">
+      <p>© Copyright <strong>Medicio</strong> All Rights Reserved</p>
+      <p>
+        Designed by <a href="#">BootstrapMade</a> Distributed by
+        <a href="#">ThemeWagon</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+<script>
+  const track = document.querySelector(".carousel-track");
+  let images = document.querySelectorAll(".carousel-img");
+  const visibleCount = 5;
+  const imageWidth = 205;
+
+  // Clone elements for infinite scroll
+  for (let i = 0; i < visibleCount; i++) {
+    const firstClone = images[i].cloneNode(true);
+    const lastClone = images[images.length - 1 - i].cloneNode(true);
+    track.appendChild(firstClone);
+    track.insertBefore(lastClone, track.firstChild);
+  }
+
+  images = document.querySelectorAll(".carousel-img"); // refresh
+  let index = visibleCount;
+  track.style.transform = `translateX(-${index * imageWidth}px)`;
+
+  // Create dots
+  const dotsContainer = document.createElement("div");
+  dotsContainer.className = "dots-container";
+  document.body.appendChild(dotsContainer);
+
+  for (let i = 0; i < images.length - visibleCount * 2; i++) {
+    const dot = document.createElement("div");
+    dot.classList.add("dot");
+    if (i === 0) dot.classList.add("active");
+    dotsContainer.appendChild(dot);
+  }
+  const dots = document.querySelectorAll(".dot");
+
+  function updateCarousel(animate = true) {
+    const moveX = index * imageWidth;
+    if (animate) track.style.transition = "transform 0.3s ease-in-out";
+    else track.style.transition = "none";
+
+    track.style.transform = `translateX(-${moveX}px)`;
+
+    // Border update
+    images.forEach((img) => img.classList.remove("active"));
+    const centerIndex = index;
+    if (images[centerIndex]) images[centerIndex].classList.add("active");
+
+    // Dots update
+    const logicalIndex = (index - visibleCount + dots.length) % dots.length;
+    dots.forEach((dot) => dot.classList.remove("active"));
+    if (dots[logicalIndex]) dots[logicalIndex].classList.add("active");
+  }
+
+  function nextSlide() {
+    index++;
+    updateCarousel();
+
+    if (index >= images.length - visibleCount) {
+      setTimeout(() => {
+        index = visibleCount;
+        updateCarousel(false);
+      }, 300);
+    }
+  }
+
+  setInterval(nextSlide, 3000);
+
+  // Drag
+  let startX = 0;
+  let isDragging = false;
+
+  track.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    startX = e.pageX;
+  });
+
+  track.addEventListener("mouseup", (e) => {
+    if (!isDragging) return;
+    isDragging = false;
+    const deltaX = e.pageX - startX;
+
+    if (deltaX > 50) index--;
+    else if (deltaX < -50) index++;
+
+    updateCarousel();
+
+    if (index <= 0) {
+      setTimeout(() => {
+        index = images.length - visibleCount * 2;
+        updateCarousel(false);
+      }, 300);
+    }
+    if (index >= images.length - visibleCount) {
+      setTimeout(() => {
+        index = visibleCount;
+        updateCarousel(false);
+      }, 300);
+    }
+  });
+
+  track.addEventListener("mouseleave", () => {
+    isDragging = false;
+  });
+
+  function updateCarousel(animate = true) {
+    const moveX = index * imageWidth;
+    if (animate) track.style.transition = "transform 0.3s ease-in-out";
+    else track.style.transition = "none";
+
+    track.style.transform = `translateX(-${moveX}px)`;
+
+    // Border update
+    images.forEach((img) => img.classList.remove("active"));
+    const centerOffset = Math.floor(visibleCount / 2);
+    const centerIndex = index + centerOffset;
+    if (images[centerIndex]) images[centerIndex].classList.add("active");
+
+    // Dots update
+    const logicalIndex = (index - visibleCount + dots.length) % dots.length;
+    dots.forEach((dot) => dot.classList.remove("active"));
+    if (dots[logicalIndex]) dots[logicalIndex].classList.add("active");
+  }
+</script>
+
+<!-- botstrap cdn -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+</html>
